@@ -1,5 +1,5 @@
 # Promise VS Promise All
-Promise in JavaScript works sequentially. It means that if you have 2 promises, the second promise will be executed after the first promise is resolved.
+`Await promise` in JavaScript works asynchronously. It means that if you have 2 promises, the second promise will be executed after the first promise is resolved.
 
 But what if you want to execute all promises at the same time? You can use `Promise.all()` to do that.
 
